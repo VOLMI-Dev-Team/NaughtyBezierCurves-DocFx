@@ -1,0 +1,158 @@
+{
+  "source_base_path": "D:/Lorem ipsum/Repositories/Unity/VOLMI/NaughtyBezierCurves/site",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.BezierCurve3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.BezierCurve3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.BezierPoint3D.HandleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.BezierPoint3D.HandleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.BezierPoint3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.BezierPoint3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NaughtyBezierCurves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NaughtyBezierCurves.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

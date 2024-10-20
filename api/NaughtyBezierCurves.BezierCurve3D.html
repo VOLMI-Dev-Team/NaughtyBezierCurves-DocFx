@@ -1,0 +1,1509 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BezierCurve3D | NaughtyBezierCurves </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BezierCurve3D | NaughtyBezierCurves ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/new/DocFx/apiSpec/new?filename=NaughtyBezierCurves_BezierCurve3D.md&amp;value=---%0Auid%3A%20NaughtyBezierCurves.BezierCurve3D%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NaughtyBezierCurves">
+            NaughtyBezierCurves
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NaughtyBezierCurves.BezierCurve3D">
+
+
+
+  <h1 id="NaughtyBezierCurves_BezierCurve3D" data-uid="NaughtyBezierCurves.BezierCurve3D" class="text-break">
+Class BezierCurve3D  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NaughtyBezierCurves.html">NaughtyBezierCurves</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NaughtyBezierCurves.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BezierCurve3D : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">BezierCurve3D</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopCoroutine(Coroutine)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
+    </div>
+    <div>
+      <span class="xref">Component.TryGetComponent&lt;T&gt;(out T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <span class="xref">Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DontDestroyOnLoad(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectsOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsInactive, FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <span class="xref">Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Object.name</span>
+    </div>
+    <div>
+      <span class="xref">Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_KeyPoints_" data-uid="NaughtyBezierCurves.BezierCurve3D.KeyPoints*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_KeyPoints" data-uid="NaughtyBezierCurves.BezierCurve3D.KeyPoints">
+  KeyPoints
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;BezierPoint3D&gt; KeyPoints { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_KeyPointsCount_" data-uid="NaughtyBezierCurves.BezierCurve3D.KeyPointsCount*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_KeyPointsCount" data-uid="NaughtyBezierCurves.BezierCurve3D.KeyPointsCount">
+  KeyPointsCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int KeyPointsCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_Sampling_" data-uid="NaughtyBezierCurves.BezierCurve3D.Sampling*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_Sampling" data-uid="NaughtyBezierCurves.BezierCurve3D.Sampling">
+  Sampling
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Sampling { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_AddKeyPoint_" data-uid="NaughtyBezierCurves.BezierCurve3D.AddKeyPoint*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_AddKeyPoint" data-uid="NaughtyBezierCurves.BezierCurve3D.AddKeyPoint">
+  AddKeyPoint()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a key point at the end of the curve</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPoint3D AddKeyPoint()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd><p>The new key point</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_AddKeyPointAt_" data-uid="NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_AddKeyPointAt_System_Int32_" data-uid="NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt(System.Int32)">
+  AddKeyPointAt(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add a key point at a specified index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPoint3D AddKeyPointAt(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index at which the key point will be added</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd><p>The new key point</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLength_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLength*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLength" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLength">
+  GetApproximateLength()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetApproximateLength()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_System_Int32_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D,System.Int32)">
+  GetApproximateLengthOfCubicCurve(BezierPoint3D, BezierPoint3D, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetApproximateLengthOfCubicCurve(BezierPoint3D startPoint, BezierPoint3D endPoint, int sampling)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>sampling</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)">
+  GetApproximateLengthOfCubicCurve(Vector3, Vector3, Vector3, Vector3, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetApproximateLengthOfCubicCurve(Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent, int sampling)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>sampling</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetBinormal_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormal*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetBinormal_System_Single_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormal(System.Single,UnityEngine.Vector3)">
+  GetBinormal(float, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetBinormal(float time, Vector3 up)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)">
+  GetBinormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetBinormalOnCubicCurve(float time, Vector3 up, BezierPoint3D startPoint, BezierPoint3D endPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  GetBinormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetBinormalOnCubicCurve(float time, Vector3 up, Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetCubicSegment_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetCubicSegment*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetCubicSegment_System_Single_NaughtyBezierCurves_BezierPoint3D__NaughtyBezierCurves_BezierPoint3D__System_Single__" data-uid="NaughtyBezierCurves.BezierCurve3D.GetCubicSegment(System.Single,NaughtyBezierCurves.BezierPoint3D@,NaughtyBezierCurves.BezierPoint3D@,System.Single@)">
+  GetCubicSegment(float, out BezierPoint3D, out BezierPoint3D, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCubicSegment(float time, out BezierPoint3D startPoint, out BezierPoint3D endPoint, out float timeRelativeToSegment)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>timeRelativeToSegment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetNormal_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormal*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetNormal_System_Single_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormal(System.Single,UnityEngine.Vector3)">
+  GetNormal(float, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetNormal(float time, Vector3 up)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)">
+  GetNormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetNormalOnCubicCurve(float time, Vector3 up, BezierPoint3D startPoint, BezierPoint3D endPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  GetNormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetNormalOnCubicCurve(float time, Vector3 up, Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetPoint_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPoint*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetPoint_System_Single_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPoint(System.Single)">
+  GetPoint(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluates a position along the curve at a specified normalized time [0, 1]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPoint(float time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The normalized length at which we want to get a position [0, 1]</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd><p>The evaluated Vector3 position</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_System_Single_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)">
+  GetPointOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetPointOnCubicCurve(float time, BezierPoint3D startPoint, BezierPoint3D endPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  GetPointOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetPointOnCubicCurve(float time, Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetRotation_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotation*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetRotation_System_Single_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotation(System.Single,UnityEngine.Vector3)">
+  GetRotation(float, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion GetRotation(float time, Vector3 up)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)">
+  GetRotationOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion GetRotationOnCubicCurve(float time, Vector3 up, BezierPoint3D startPoint, BezierPoint3D endPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  GetRotationOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion GetRotationOnCubicCurve(float time, Vector3 up, Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>up</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetTangent_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangent*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetTangent_System_Single_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangent(System.Single)">
+  GetTangent(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetTangent(float time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_System_Single_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)">
+  GetTangentOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetTangentOnCubicCurve(float time, BezierPoint3D startPoint, BezierPoint3D endPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+    <dt><code>endPoint</code> <a class="xref" href="NaughtyBezierCurves.BezierPoint3D.html">BezierPoint3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  GetTangentOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetTangentOnCubicCurve(float time, Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_OnDrawGizmos_" data-uid="NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_OnDrawGizmos" data-uid="NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos">
+  OnDrawGizmos()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDrawGizmos()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NaughtyBezierCurves_BezierCurve3D_RemoveKeyPointAt_" data-uid="NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt*"></a>
+
+  <h3 id="NaughtyBezierCurves_BezierCurve3D_RemoveKeyPointAt_System_Int32_" data-uid="NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt(System.Int32)">
+  RemoveKeyPointAt(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a key point at a specified index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveKeyPointAt(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index of the key point that will be removed</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true - if the point was removed, false - otherwise</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/VOLMI-Dev-Team/NaughtyBezierCurvesFork/blob/DocFx/Assets/NaughtyBezierCurves/Scripts/Core/BezierCurve3D.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

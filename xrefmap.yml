@@ -1,0 +1,657 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NaughtyBezierCurves
+  name: NaughtyBezierCurves
+  href: api/NaughtyBezierCurves.html
+  commentId: N:NaughtyBezierCurves
+  fullName: NaughtyBezierCurves
+  nameWithType: NaughtyBezierCurves
+- uid: NaughtyBezierCurves.BezierCurve3D
+  name: BezierCurve3D
+  href: api/NaughtyBezierCurves.BezierCurve3D.html
+  commentId: T:NaughtyBezierCurves.BezierCurve3D
+  fullName: NaughtyBezierCurves.BezierCurve3D
+  nameWithType: BezierCurve3D
+- uid: NaughtyBezierCurves.BezierCurve3D.AddKeyPoint
+  name: AddKeyPoint()
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_AddKeyPoint
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.AddKeyPoint
+  fullName: NaughtyBezierCurves.BezierCurve3D.AddKeyPoint()
+  nameWithType: BezierCurve3D.AddKeyPoint()
+- uid: NaughtyBezierCurves.BezierCurve3D.AddKeyPoint*
+  name: AddKeyPoint
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_AddKeyPoint_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.AddKeyPoint
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.AddKeyPoint
+  nameWithType: BezierCurve3D.AddKeyPoint
+- uid: NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt(System.Int32)
+  name: AddKeyPointAt(int)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_AddKeyPointAt_System_Int32_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt(System.Int32)
+  name.vb: AddKeyPointAt(Integer)
+  fullName: NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt(int)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt(Integer)
+  nameWithType: BezierCurve3D.AddKeyPointAt(int)
+  nameWithType.vb: BezierCurve3D.AddKeyPointAt(Integer)
+- uid: NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt*
+  name: AddKeyPointAt
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_AddKeyPointAt_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.AddKeyPointAt
+  nameWithType: BezierCurve3D.AddKeyPointAt
+- uid: NaughtyBezierCurves.BezierCurve3D.GetApproximateLength
+  name: GetApproximateLength()
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetApproximateLength
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetApproximateLength
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetApproximateLength()
+  nameWithType: BezierCurve3D.GetApproximateLength()
+- uid: NaughtyBezierCurves.BezierCurve3D.GetApproximateLength*
+  name: GetApproximateLength
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetApproximateLength_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetApproximateLength
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetApproximateLength
+  nameWithType: BezierCurve3D.GetApproximateLength
+- uid: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D,System.Int32)
+  name: GetApproximateLengthOfCubicCurve(BezierPoint3D, BezierPoint3D, int)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_System_Int32_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D,System.Int32)
+  name.vb: GetApproximateLengthOfCubicCurve(BezierPoint3D, BezierPoint3D, Integer)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D, int)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D, Integer)
+  nameWithType: BezierCurve3D.GetApproximateLengthOfCubicCurve(BezierPoint3D, BezierPoint3D, int)
+  nameWithType.vb: BezierCurve3D.GetApproximateLengthOfCubicCurve(BezierPoint3D, BezierPoint3D, Integer)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+  name: GetApproximateLengthOfCubicCurve(Vector3, Vector3, Vector3, Vector3, int)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+  name.vb: GetApproximateLengthOfCubicCurve(Vector3, Vector3, Vector3, Vector3, Integer)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, int)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, Integer)
+  nameWithType: BezierCurve3D.GetApproximateLengthOfCubicCurve(Vector3, Vector3, Vector3, Vector3, int)
+  nameWithType.vb: BezierCurve3D.GetApproximateLengthOfCubicCurve(Vector3, Vector3, Vector3, Vector3, Integer)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve*
+  name: GetApproximateLengthOfCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetApproximateLengthOfCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetApproximateLengthOfCubicCurve
+  nameWithType: BezierCurve3D.GetApproximateLengthOfCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.GetBinormal(System.Single,UnityEngine.Vector3)
+  name: GetBinormal(float, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetBinormal_System_Single_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetBinormal(System.Single,UnityEngine.Vector3)
+  name.vb: GetBinormal(Single, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetBinormal(float, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetBinormal(Single, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetBinormal(float, Vector3)
+  nameWithType.vb: BezierCurve3D.GetBinormal(Single, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetBinormal*
+  name: GetBinormal
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetBinormal_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetBinormal
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetBinormal
+  nameWithType: BezierCurve3D.GetBinormal
+- uid: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name: GetBinormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name.vb: GetBinormalOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(float, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(Single, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3D.GetBinormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  nameWithType.vb: BezierCurve3D.GetBinormalOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: GetBinormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: GetBinormalOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(float, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve(Single, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetBinormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: BezierCurve3D.GetBinormalOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve*
+  name: GetBinormalOnCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetBinormalOnCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetBinormalOnCubicCurve
+  nameWithType: BezierCurve3D.GetBinormalOnCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.GetCubicSegment(System.Single,NaughtyBezierCurves.BezierPoint3D@,NaughtyBezierCurves.BezierPoint3D@,System.Single@)
+  name: GetCubicSegment(float, out BezierPoint3D, out BezierPoint3D, out float)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetCubicSegment_System_Single_NaughtyBezierCurves_BezierPoint3D__NaughtyBezierCurves_BezierPoint3D__System_Single__
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetCubicSegment(System.Single,NaughtyBezierCurves.BezierPoint3D@,NaughtyBezierCurves.BezierPoint3D@,System.Single@)
+  name.vb: GetCubicSegment(Single, BezierPoint3D, BezierPoint3D, Single)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetCubicSegment(float, out NaughtyBezierCurves.BezierPoint3D, out NaughtyBezierCurves.BezierPoint3D, out float)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetCubicSegment(Single, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D, Single)
+  nameWithType: BezierCurve3D.GetCubicSegment(float, out BezierPoint3D, out BezierPoint3D, out float)
+  nameWithType.vb: BezierCurve3D.GetCubicSegment(Single, BezierPoint3D, BezierPoint3D, Single)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetCubicSegment*
+  name: GetCubicSegment
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetCubicSegment_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetCubicSegment
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetCubicSegment
+  nameWithType: BezierCurve3D.GetCubicSegment
+- uid: NaughtyBezierCurves.BezierCurve3D.GetNormal(System.Single,UnityEngine.Vector3)
+  name: GetNormal(float, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetNormal_System_Single_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetNormal(System.Single,UnityEngine.Vector3)
+  name.vb: GetNormal(Single, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetNormal(float, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetNormal(Single, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetNormal(float, Vector3)
+  nameWithType.vb: BezierCurve3D.GetNormal(Single, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetNormal*
+  name: GetNormal
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetNormal_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetNormal
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetNormal
+  nameWithType: BezierCurve3D.GetNormal
+- uid: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name: GetNormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name.vb: GetNormalOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(float, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(Single, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3D.GetNormalOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  nameWithType.vb: BezierCurve3D.GetNormalOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: GetNormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: GetNormalOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(float, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve(Single, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetNormalOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: BezierCurve3D.GetNormalOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve*
+  name: GetNormalOnCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetNormalOnCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetNormalOnCubicCurve
+  nameWithType: BezierCurve3D.GetNormalOnCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.GetPoint(System.Single)
+  name: GetPoint(float)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetPoint_System_Single_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetPoint(System.Single)
+  name.vb: GetPoint(Single)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetPoint(float)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetPoint(Single)
+  nameWithType: BezierCurve3D.GetPoint(float)
+  nameWithType.vb: BezierCurve3D.GetPoint(Single)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetPoint*
+  name: GetPoint
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetPoint_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetPoint
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetPoint
+  nameWithType: BezierCurve3D.GetPoint
+- uid: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name: GetPointOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_System_Single_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name.vb: GetPointOnCubicCurve(Single, BezierPoint3D, BezierPoint3D)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(float, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(Single, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3D.GetPointOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  nameWithType.vb: BezierCurve3D.GetPointOnCubicCurve(Single, BezierPoint3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: GetPointOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: GetPointOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(float, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve(Single, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetPointOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: BezierCurve3D.GetPointOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve*
+  name: GetPointOnCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetPointOnCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetPointOnCubicCurve
+  nameWithType: BezierCurve3D.GetPointOnCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.GetRotation(System.Single,UnityEngine.Vector3)
+  name: GetRotation(float, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetRotation_System_Single_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetRotation(System.Single,UnityEngine.Vector3)
+  name.vb: GetRotation(Single, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetRotation(float, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetRotation(Single, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetRotation(float, Vector3)
+  nameWithType.vb: BezierCurve3D.GetRotation(Single, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetRotation*
+  name: GetRotation
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetRotation_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetRotation
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetRotation
+  nameWithType: BezierCurve3D.GetRotation
+- uid: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name: GetRotationOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_System_Single_UnityEngine_Vector3_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name.vb: GetRotationOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(float, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(Single, UnityEngine.Vector3, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3D.GetRotationOnCubicCurve(float, Vector3, BezierPoint3D, BezierPoint3D)
+  nameWithType.vb: BezierCurve3D.GetRotationOnCubicCurve(Single, Vector3, BezierPoint3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: GetRotationOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: GetRotationOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(float, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve(Single, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetRotationOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: BezierCurve3D.GetRotationOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve*
+  name: GetRotationOnCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetRotationOnCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetRotationOnCubicCurve
+  nameWithType: BezierCurve3D.GetRotationOnCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.GetTangent(System.Single)
+  name: GetTangent(float)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetTangent_System_Single_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetTangent(System.Single)
+  name.vb: GetTangent(Single)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetTangent(float)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetTangent(Single)
+  nameWithType: BezierCurve3D.GetTangent(float)
+  nameWithType.vb: BezierCurve3D.GetTangent(Single)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetTangent*
+  name: GetTangent
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetTangent_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetTangent
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetTangent
+  nameWithType: BezierCurve3D.GetTangent
+- uid: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name: GetTangentOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_System_Single_NaughtyBezierCurves_BezierPoint3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,NaughtyBezierCurves.BezierPoint3D,NaughtyBezierCurves.BezierPoint3D)
+  name.vb: GetTangentOnCubicCurve(Single, BezierPoint3D, BezierPoint3D)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(float, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(Single, NaughtyBezierCurves.BezierPoint3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3D.GetTangentOnCubicCurve(float, BezierPoint3D, BezierPoint3D)
+  nameWithType.vb: BezierCurve3D.GetTangentOnCubicCurve(Single, BezierPoint3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name: GetTangentOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  name.vb: GetTangentOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3)
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(float, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve(Single, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: BezierCurve3D.GetTangentOnCubicCurve(float, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: BezierCurve3D.GetTangentOnCubicCurve(Single, Vector3, Vector3, Vector3, Vector3)
+- uid: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve*
+  name: GetTangentOnCubicCurve
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_GetTangentOnCubicCurve_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.GetTangentOnCubicCurve
+  nameWithType: BezierCurve3D.GetTangentOnCubicCurve
+- uid: NaughtyBezierCurves.BezierCurve3D.KeyPoints
+  name: KeyPoints
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_KeyPoints
+  commentId: P:NaughtyBezierCurves.BezierCurve3D.KeyPoints
+  fullName: NaughtyBezierCurves.BezierCurve3D.KeyPoints
+  nameWithType: BezierCurve3D.KeyPoints
+- uid: NaughtyBezierCurves.BezierCurve3D.KeyPoints*
+  name: KeyPoints
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_KeyPoints_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.KeyPoints
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.KeyPoints
+  nameWithType: BezierCurve3D.KeyPoints
+- uid: NaughtyBezierCurves.BezierCurve3D.KeyPointsCount
+  name: KeyPointsCount
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_KeyPointsCount
+  commentId: P:NaughtyBezierCurves.BezierCurve3D.KeyPointsCount
+  fullName: NaughtyBezierCurves.BezierCurve3D.KeyPointsCount
+  nameWithType: BezierCurve3D.KeyPointsCount
+- uid: NaughtyBezierCurves.BezierCurve3D.KeyPointsCount*
+  name: KeyPointsCount
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_KeyPointsCount_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.KeyPointsCount
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.KeyPointsCount
+  nameWithType: BezierCurve3D.KeyPointsCount
+- uid: NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos
+  name: OnDrawGizmos()
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_OnDrawGizmos
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos
+  fullName: NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos()
+  nameWithType: BezierCurve3D.OnDrawGizmos()
+- uid: NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos*
+  name: OnDrawGizmos
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_OnDrawGizmos_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.OnDrawGizmos
+  nameWithType: BezierCurve3D.OnDrawGizmos
+- uid: NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt(System.Int32)
+  name: RemoveKeyPointAt(int)
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_RemoveKeyPointAt_System_Int32_
+  commentId: M:NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt(System.Int32)
+  name.vb: RemoveKeyPointAt(Integer)
+  fullName: NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt(int)
+  fullName.vb: NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt(Integer)
+  nameWithType: BezierCurve3D.RemoveKeyPointAt(int)
+  nameWithType.vb: BezierCurve3D.RemoveKeyPointAt(Integer)
+- uid: NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt*
+  name: RemoveKeyPointAt
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_RemoveKeyPointAt_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.RemoveKeyPointAt
+  nameWithType: BezierCurve3D.RemoveKeyPointAt
+- uid: NaughtyBezierCurves.BezierCurve3D.Sampling
+  name: Sampling
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_Sampling
+  commentId: P:NaughtyBezierCurves.BezierCurve3D.Sampling
+  fullName: NaughtyBezierCurves.BezierCurve3D.Sampling
+  nameWithType: BezierCurve3D.Sampling
+- uid: NaughtyBezierCurves.BezierCurve3D.Sampling*
+  name: Sampling
+  href: api/NaughtyBezierCurves.BezierCurve3D.html#NaughtyBezierCurves_BezierCurve3D_Sampling_
+  commentId: Overload:NaughtyBezierCurves.BezierCurve3D.Sampling
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierCurve3D.Sampling
+  nameWithType: BezierCurve3D.Sampling
+- uid: NaughtyBezierCurves.BezierPoint3D
+  name: BezierPoint3D
+  href: api/NaughtyBezierCurves.BezierPoint3D.html
+  commentId: T:NaughtyBezierCurves.BezierPoint3D
+  fullName: NaughtyBezierCurves.BezierPoint3D
+  nameWithType: BezierPoint3D
+- uid: NaughtyBezierCurves.BezierPoint3D.Curve
+  name: Curve
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_Curve
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.Curve
+  fullName: NaughtyBezierCurves.BezierPoint3D.Curve
+  nameWithType: BezierPoint3D.Curve
+- uid: NaughtyBezierCurves.BezierPoint3D.Curve*
+  name: Curve
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_Curve_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.Curve
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.Curve
+  nameWithType: BezierPoint3D.Curve
+- uid: NaughtyBezierCurves.BezierPoint3D.HandleStyle
+  name: HandleStyle
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_HandleStyle
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.HandleStyle
+  fullName: NaughtyBezierCurves.BezierPoint3D.HandleStyle
+  nameWithType: BezierPoint3D.HandleStyle
+- uid: NaughtyBezierCurves.BezierPoint3D.HandleStyle*
+  name: HandleStyle
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_HandleStyle_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.HandleStyle
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.HandleStyle
+  nameWithType: BezierPoint3D.HandleStyle
+- uid: NaughtyBezierCurves.BezierPoint3D.HandleType
+  name: BezierPoint3D.HandleType
+  href: api/NaughtyBezierCurves.BezierPoint3D.HandleType.html
+  commentId: T:NaughtyBezierCurves.BezierPoint3D.HandleType
+  fullName: NaughtyBezierCurves.BezierPoint3D.HandleType
+  nameWithType: BezierPoint3D.HandleType
+- uid: NaughtyBezierCurves.BezierPoint3D.HandleType.Broken
+  name: Broken
+  href: api/NaughtyBezierCurves.BezierPoint3D.HandleType.html#NaughtyBezierCurves_BezierPoint3D_HandleType_Broken
+  commentId: F:NaughtyBezierCurves.BezierPoint3D.HandleType.Broken
+  fullName: NaughtyBezierCurves.BezierPoint3D.HandleType.Broken
+  nameWithType: BezierPoint3D.HandleType.Broken
+- uid: NaughtyBezierCurves.BezierPoint3D.HandleType.Connected
+  name: Connected
+  href: api/NaughtyBezierCurves.BezierPoint3D.HandleType.html#NaughtyBezierCurves_BezierPoint3D_HandleType_Connected
+  commentId: F:NaughtyBezierCurves.BezierPoint3D.HandleType.Connected
+  fullName: NaughtyBezierCurves.BezierPoint3D.HandleType.Connected
+  nameWithType: BezierPoint3D.HandleType.Connected
+- uid: NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition
+  name: LeftHandleLocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LeftHandleLocalPosition
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition
+  fullName: NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition
+  nameWithType: BezierPoint3D.LeftHandleLocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition*
+  name: LeftHandleLocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LeftHandleLocalPosition_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.LeftHandleLocalPosition
+  nameWithType: BezierPoint3D.LeftHandleLocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition
+  name: LeftHandlePosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LeftHandlePosition
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition
+  fullName: NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition
+  nameWithType: BezierPoint3D.LeftHandlePosition
+- uid: NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition*
+  name: LeftHandlePosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LeftHandlePosition_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.LeftHandlePosition
+  nameWithType: BezierPoint3D.LeftHandlePosition
+- uid: NaughtyBezierCurves.BezierPoint3D.LocalPosition
+  name: LocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LocalPosition
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.LocalPosition
+  fullName: NaughtyBezierCurves.BezierPoint3D.LocalPosition
+  nameWithType: BezierPoint3D.LocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.LocalPosition*
+  name: LocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_LocalPosition_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.LocalPosition
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.LocalPosition
+  nameWithType: BezierPoint3D.LocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.Position
+  name: Position
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_Position
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.Position
+  fullName: NaughtyBezierCurves.BezierPoint3D.Position
+  nameWithType: BezierPoint3D.Position
+- uid: NaughtyBezierCurves.BezierPoint3D.Position*
+  name: Position
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_Position_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.Position
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.Position
+  nameWithType: BezierPoint3D.Position
+- uid: NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition
+  name: RightHandleLocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_RightHandleLocalPosition
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition
+  fullName: NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition
+  nameWithType: BezierPoint3D.RightHandleLocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition*
+  name: RightHandleLocalPosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_RightHandleLocalPosition_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.RightHandleLocalPosition
+  nameWithType: BezierPoint3D.RightHandleLocalPosition
+- uid: NaughtyBezierCurves.BezierPoint3D.RightHandlePosition
+  name: RightHandlePosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_RightHandlePosition
+  commentId: P:NaughtyBezierCurves.BezierPoint3D.RightHandlePosition
+  fullName: NaughtyBezierCurves.BezierPoint3D.RightHandlePosition
+  nameWithType: BezierPoint3D.RightHandlePosition
+- uid: NaughtyBezierCurves.BezierPoint3D.RightHandlePosition*
+  name: RightHandlePosition
+  href: api/NaughtyBezierCurves.BezierPoint3D.html#NaughtyBezierCurves_BezierPoint3D_RightHandlePosition_
+  commentId: Overload:NaughtyBezierCurves.BezierPoint3D.RightHandlePosition
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.BezierPoint3D.RightHandlePosition
+  nameWithType: BezierPoint3D.RightHandlePosition
+- uid: NaughtyBezierCurves.Editor
+  name: NaughtyBezierCurves.Editor
+  href: api/NaughtyBezierCurves.Editor.html
+  commentId: N:NaughtyBezierCurves.Editor
+  fullName: NaughtyBezierCurves.Editor
+  nameWithType: NaughtyBezierCurves.Editor
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor
+  name: BezierCurve3DEditor
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html
+  commentId: T:NaughtyBezierCurves.Editor.BezierCurve3DEditor
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor
+  nameWithType: BezierCurve3DEditor
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI(NaughtyBezierCurves.BezierCurve3D,NaughtyBezierCurves.BezierPoint3D)
+  name: DrawPointsSceneGUI(BezierCurve3D, BezierPoint3D)
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_DrawPointsSceneGUI_NaughtyBezierCurves_BezierCurve3D_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI(NaughtyBezierCurves.BezierCurve3D,NaughtyBezierCurves.BezierPoint3D)
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI(NaughtyBezierCurves.BezierCurve3D, NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierCurve3DEditor.DrawPointsSceneGUI(BezierCurve3D, BezierPoint3D)
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI*
+  name: DrawPointsSceneGUI
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_DrawPointsSceneGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.DrawPointsSceneGUI
+  nameWithType: BezierCurve3DEditor.DrawPointsSceneGUI
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable
+  name: OnEnable()
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnEnable
+  commentId: M:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable()
+  nameWithType: BezierCurve3DEditor.OnEnable()
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable*
+  name: OnEnable
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnEnable_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnEnable
+  nameWithType: BezierCurve3DEditor.OnEnable
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnInspectorGUI
+  commentId: M:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI()
+  nameWithType: BezierCurve3DEditor.OnInspectorGUI()
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnInspectorGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnInspectorGUI
+  nameWithType: BezierCurve3DEditor.OnInspectorGUI
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI
+  name: OnSceneGUI()
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnSceneGUI
+  commentId: M:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI()
+  nameWithType: BezierCurve3DEditor.OnSceneGUI()
+- uid: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI*
+  name: OnSceneGUI
+  href: api/NaughtyBezierCurves.Editor.BezierCurve3DEditor.html#NaughtyBezierCurves_Editor_BezierCurve3DEditor_OnSceneGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierCurve3DEditor.OnSceneGUI
+  nameWithType: BezierCurve3DEditor.OnSceneGUI
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor
+  name: BezierPoint3DEditor
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html
+  commentId: T:NaughtyBezierCurves.Editor.BezierPoint3DEditor
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor
+  nameWithType: BezierPoint3DEditor
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.CircleCapSize
+  name: CircleCapSize
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_CircleCapSize
+  commentId: F:NaughtyBezierCurves.Editor.BezierPoint3DEditor.CircleCapSize
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.CircleCapSize
+  nameWithType: BezierPoint3DEditor.CircleCapSize
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D)
+  name: DrawPointSceneGUI(BezierPoint3D)
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_DrawPointSceneGUI_NaughtyBezierCurves_BezierPoint3D_
+  commentId: M:NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D)
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D)
+  nameWithType: BezierPoint3DEditor.DrawPointSceneGUI(BezierPoint3D)
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D,UnityEditor.Handles.CapFunction,UnityEditor.Handles.CapFunction)
+  name: DrawPointSceneGUI(BezierPoint3D, CapFunction, CapFunction)
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_DrawPointSceneGUI_NaughtyBezierCurves_BezierPoint3D_UnityEditor_Handles_CapFunction_UnityEditor_Handles_CapFunction_
+  commentId: M:NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D,UnityEditor.Handles.CapFunction,UnityEditor.Handles.CapFunction)
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI(NaughtyBezierCurves.BezierPoint3D, UnityEditor.Handles.CapFunction, UnityEditor.Handles.CapFunction)
+  nameWithType: BezierPoint3DEditor.DrawPointSceneGUI(BezierPoint3D, Handles.CapFunction, Handles.CapFunction)
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI*
+  name: DrawPointSceneGUI
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_DrawPointSceneGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.DrawPointSceneGUI
+  nameWithType: BezierPoint3DEditor.DrawPointSceneGUI
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable
+  name: OnEnable()
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnEnable
+  commentId: M:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable()
+  nameWithType: BezierPoint3DEditor.OnEnable()
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable*
+  name: OnEnable
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnEnable_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnEnable
+  nameWithType: BezierPoint3DEditor.OnEnable
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnInspectorGUI
+  commentId: M:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI()
+  nameWithType: BezierPoint3DEditor.OnInspectorGUI()
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnInspectorGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnInspectorGUI
+  nameWithType: BezierPoint3DEditor.OnInspectorGUI
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI
+  name: OnSceneGUI()
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnSceneGUI
+  commentId: M:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI()
+  nameWithType: BezierPoint3DEditor.OnSceneGUI()
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI*
+  name: OnSceneGUI
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_OnSceneGUI_
+  commentId: Overload:NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI
+  isSpec: "True"
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.OnSceneGUI
+  nameWithType: BezierPoint3DEditor.OnSceneGUI
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.RectangeCapSize
+  name: RectangeCapSize
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_RectangeCapSize
+  commentId: F:NaughtyBezierCurves.Editor.BezierPoint3DEditor.RectangeCapSize
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.RectangeCapSize
+  nameWithType: BezierPoint3DEditor.RectangeCapSize
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.SphereCapSize
+  name: SphereCapSize
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_SphereCapSize
+  commentId: F:NaughtyBezierCurves.Editor.BezierPoint3DEditor.SphereCapSize
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.SphereCapSize
+  nameWithType: BezierPoint3DEditor.SphereCapSize
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.handleCapSize
+  name: handleCapSize
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_handleCapSize
+  commentId: F:NaughtyBezierCurves.Editor.BezierPoint3DEditor.handleCapSize
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.handleCapSize
+  nameWithType: BezierPoint3DEditor.handleCapSize
+- uid: NaughtyBezierCurves.Editor.BezierPoint3DEditor.pointCapSize
+  name: pointCapSize
+  href: api/NaughtyBezierCurves.Editor.BezierPoint3DEditor.html#NaughtyBezierCurves_Editor_BezierPoint3DEditor_pointCapSize
+  commentId: F:NaughtyBezierCurves.Editor.BezierPoint3DEditor.pointCapSize
+  fullName: NaughtyBezierCurves.Editor.BezierPoint3DEditor.pointCapSize
+  nameWithType: BezierPoint3DEditor.pointCapSize
